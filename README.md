@@ -1,13 +1,13 @@
-#MedBikri API
+# MedBikri API
 This API allows you to retrieve the most recent videos from YouTube.
 
-###Prerequisites
+### Prerequisites
 
 1. Node.js
 2. MongoDB
 3. API key from YouTube
 
-###Installation
+### Installation
 
 1. Clone the repository
 2. Install the dependencies
@@ -24,7 +24,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.12qrfbl.mongodb.net/medbi
 ```npm start```
 
 
-###Usage
+### Usage
 You can use the following endpoints to retrieve videos:
 
 1. Retrieve all videos: ```GET /api/all```
@@ -32,5 +32,5 @@ You can use the following endpoints to retrieve videos:
 
 The API will update the database every 1 min with the most recent videos.
 
-####Note
+#### Note
 Please replace the <username> and <password> with your own credentials.

@@ -11,7 +11,7 @@ This API allows you to retrieve the most recent videos from YouTube.
 
 1. Clone the repository
 2. Install the dependencies
->npm install
+```npm install```
 
 3.Create a .env file in the root directory and add the following:
 ```
@@ -21,7 +21,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.12qrfbl.mongodb.net/medbi
 ```
 
 4. Start the server
->npm start
+```npm start```
 
 
 ###Usage
